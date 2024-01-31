@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Campus02WebService.props" />
+</Project>
