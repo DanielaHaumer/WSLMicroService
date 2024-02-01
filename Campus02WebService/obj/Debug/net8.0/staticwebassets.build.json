@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CcOQOvqeIyfgxMiUznp+omKd9gMEufZO4ga9zb+bbXU=",
+  "Hash": "b/6bydTWR7PO008nK+pfrvGiwwTdMYM5fClA7/4PMOQ=",
   "Source": "Campus02WebService",
   "BasePath": "_content/Campus02WebService",
   "Mode": "Default",
@@ -47,10 +47,10 @@
       "OriginalItemSpec": "C:\\Users\\LY\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.1\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Campus02WebService.styles.css",
+      "Identity": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Campus02WebService.styles.css",
       "SourceId": "Campus02WebService",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Campus02WebService",
       "RelativePath": "Campus02WebService.styles.css",
       "AssetKind": "All",
@@ -63,7 +63,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Campus02WebService.styles.css"
+      "OriginalItemSpec": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Campus02WebService.styles.css"
     }
   ]
 }

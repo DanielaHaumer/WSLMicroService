@@ -7089,11 +7089,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\Campus02WebService.csproj",
+      "projectUniqueName": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\Campus02WebService.csproj",
       "projectName": "Campus02WebService",
-      "projectPath": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\Campus02WebService.csproj",
+      "projectPath": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\Campus02WebService.csproj",
       "packagesPath": "C:\\Users\\LY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Campus02WebServiceSolution\\Campus02WebService\\obj\\",
+      "outputPath": "C:\\Users\\LY\\Documents\\_Campus_SEM3\\Web Services\\Project\\WSLMicroService\\Campus02WebService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LY\\AppData\\Roaming\\NuGet\\NuGet.Config",

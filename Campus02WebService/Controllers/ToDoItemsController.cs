@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Campus02WebService.Models;
+using Campus02WebService.Services;
 
 namespace Campus02WebService.Controllers
 {
@@ -15,11 +16,14 @@ namespace Campus02WebService.Controllers
     {
         private readonly ToDoContext _context;
         private readonly IConfiguration _configuration;
+        private readonly IApiKeyValidation _apiKeyValidation;
 
-        public ToDoItemsController(ToDoContext context, IConfiguration configuration)
+        public ToDoItemsController(ToDoContext context, IConfiguration configuration, IApiKeyValidation apiKeyValidation)
         {
             _context = context;
             _configuration = configuration;
+            _apiKeyValidation = apiKeyValidation;
+
         }
 
         // GET: api/ToDoItems
@@ -81,6 +85,13 @@ namespace Campus02WebService.Controllers
         public async Task<ActionResult<ToDoItem>> PostToDoItem(ToDoItem toDoItem)
         {
             var productSuffix = _configuration["ProductSuffix"];
+            var userApiKey = HttpContext.Request.Headers[Constants.ApiKeyHeaderName].FirstOrDefault();
+
+            // Validate the API key
+            if (!_apiKeyValidation.IsValidApiKey(userApiKey))
+            {
+                return Unauthorized("Invalid API Key.");
+            }
 
             // Fügen Sie den Suffix zur Beschreibung hinzu
             toDoItem.Description += $" - {productSuffix}";
